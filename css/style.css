@@ -48,7 +48,7 @@ h1 {
   padding-top: 65px;
 }
 
-p {
+.intro-text {
   font: 15px ArialMT, Arial, sans-serif;
   color: #808080;
   padding: 50px 0;
@@ -91,20 +91,75 @@ button > span {
   padding: 15px;
 }
 
+.services-text {
+  font: 21px Myriad Pro Regular, Arial, sans-serif;
+  color: #4d4d4d;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.services-description {
+  font: 15px ArialMT, Arial, sans-serif;
+  color: #808080;
+}
+
+p.jornal-data {
+  font: 17px Myriad Pro Regular, Arial, sans-serif;
+  color: #c3c3c3;
+
+}
+
+.jornal-text {
+  font: 21px bebas-neue-bold, Arial, sans-serif;
+  color: #4d4d4d;
+
+}
+
+.jornal-description {
+  font: 15px ArialMT, Arial, sans-serif;
+  color: #808080;
+}
+
+.media {
+  padding: 0 !important;
+  margin: 50px 0;
+}
+
+.social > p {
+  color: #bdbdbd;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.social-img > a {
+  display: inline-block;
+  padding-bottom: 60px;
+  padding-left: 10px;
+}
+
+footer {
+  background-color: #2d2d30;
+}
 
 
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.99px) { ... }
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  .navbar-nav > li {
+  margin-right: 0px !important;
+  }
+}
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.99px) { ... }
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.99px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.99px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
