@@ -1,0 +1,110 @@
+@font-face {
+font-family: "Myriad Pro Regular";
+src: url("../fonts/Myriad Pro Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "ArialMT";
+src: url("../fonts/ArialMT.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "bebas-neue-bold";
+src: url("../fonts/bebas-neue-bold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+.navbar {
+  padding-top: 70px;
+  padding-bottom: 65px;
+  padding-left: 0;
+}
+
+.navbar-nav > li {
+  margin-right: 40px !important;
+}
+
+.nav-item > a:hover:hover {
+  color: #ef5f60 !important;
+}
+
+.navbar-nav > li:last-child {
+  margin-right: 30px !important;
+}
+
+.intro {
+  background-color: #f1f4f5;
+}
+
+h1 {
+  font: 38px Myriad Pro Regular, Arial, sans-serif;
+  color: #4d4d4d;
+  letter-spacing: 2px;
+  padding-top: 65px;
+}
+
+p {
+  font: 15px ArialMT, Arial, sans-serif;
+  color: #808080;
+  padding: 50px 0;
+}
+
+h3 {
+  font: 21px Myriad Pro Regular, Arial, sans-serif;
+  color: #4d4d4d;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+h3 > span {
+  color: #ef5f60;
+  padding-left: 15px;
+}
+
+.btn-portfolio > button {
+  background-color: #ef5f60;
+  border-radius: 0 !important;
+  margin-top: 80px;
+}
+
+button > span {
+  font: 20px bebas-neue-bold, Arial, sans-serif;
+  color: #fff;
+}
+
+.portfolio-img {
+  margin-bottom: 30px;
+}
+
+.btn-mail > button {
+  background-color: #ef5f60;
+  border-radius: 0 !important;
+}
+
+.btn-mail > button > span {
+  padding: 15px;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.99px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.99px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.99px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.99px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
